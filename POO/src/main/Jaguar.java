@@ -40,5 +40,9 @@ public class Jaguar extends Animal implements IFelino {
 	public void cazar(){
 		System.out.println("El Jaguar caza!");
     }
+	
+	public void dormir() {
+		System.out.println("El Jaguar duerme!");
+	}
 
 }
