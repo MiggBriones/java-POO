@@ -12,6 +12,10 @@ public class Main {
 		yagua.dormir();
 		yagua.comer();
 		
+		
+		yagua.cazar();
+		yagua.rugir();
+		yagua.maullar();
 	}
 
 }
