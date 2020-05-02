@@ -9,6 +9,9 @@ public class Main {
 		
 		System.out.println(yagua);
 		
+		yagua.dormir();
+		yagua.comer();
+		
 	}
 
 }
