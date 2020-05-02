@@ -5,8 +5,18 @@ public class Jaguar extends Animal implements IFelino {
 	private int edad;
 	private float peso;
 	
+	public Jaguar() {
+		this.setEdad(0);
+		this.setPeso(0.0f);
+	}
+	
+	public Jaguar(int edad) {
+		this.setEdad(edad);
+		this.setPeso(0.0f);
+	}
+	
 	public Jaguar(int edad, float peso) {
-		this.setPeso(edad);
+		this.setEdad(edad);
 		this.setPeso(peso);
 	}
 	
@@ -43,6 +53,10 @@ public class Jaguar extends Animal implements IFelino {
 	
 	public void dormir() {
 		System.out.println("El Jaguar duerme!");
+	}
+	
+	public void comer() {
+		System.out.println("El Jaguar come!");
 	}
 
 }
