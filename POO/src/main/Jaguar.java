@@ -5,11 +5,16 @@ public class Jaguar {
 	private int edad;
 	private float peso;
 	
+	public Jaguar(int edad, float peso) {
+		this.setPeso(edad);
+		this.setPeso(peso);
+	}
 	
 	public int getEdad() {
 		return edad;
 	}
 	public void setEdad(int edad) {
+		// se pueden agregar otras acciones
 		this.edad = edad;
 	}
 	public float getPeso() {
