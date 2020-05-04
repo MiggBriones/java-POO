@@ -21,7 +21,29 @@ public class Main {
 		
 		yagua.cazar();
 		yagua.rugir();
-		yagua.maullar();
+		// yagua.maullar();
+		
+		System.out.println("-----Liskov---");
+		
+		// Principio Liskov
+		Jaguar yagua2 = new Jaguar(10, 120f);
+		yagua2.cazar();
+		
+		IFelino yagua3 = new Jaguar(10, 120f);
+		yagua3.cazar();
+		
+		
+		/* 	El principio de liskov se rompe, ya que el 
+			principio nos dice que es posible utilizar una clase
+			padre, y poder ejecutar todos métodos de dicha clase padre.
+		 	
+		 	Siempre que heredemos de otra clase, también se hereda el comportamiento,
+		 	el comportamiento no puede ser modificado en cada herencia. Se debe de
+		 	mantener
+		*/
+		 
+		yagua3.maullar();
+
 	}
 
 }
