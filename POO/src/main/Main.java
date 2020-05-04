@@ -29,6 +29,8 @@ public class Main {
 		Jaguar yagua2 = new Jaguar(10, 120f);
 		yagua2.cazar();
 		
+		
+		System.out.println("----Inmersión de dependencias----");
 		IFelino yagua3 = new Jaguar(10, 120f);
 		yagua3.cazar();
 		
