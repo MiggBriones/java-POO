@@ -1,6 +1,6 @@
 package main;
 
-public class Jaguar extends Animal implements IFelino {
+public class Jaguar extends Animal implements IFelinoSalvaje {
 	
 	private int edad;
 	private float peso;
@@ -41,10 +41,6 @@ public class Jaguar extends Animal implements IFelino {
 	
 	public void rugir(){
         System.out.println("El Jaguar ruge!");
-    }
-	
-	public void maullar(){
-		throw new UnsupportedOperationException("El Jaguar no maulla!");
     }
 	
 	public void cazar(){

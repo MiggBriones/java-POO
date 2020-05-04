@@ -42,7 +42,10 @@ public class Main {
 		 	mantener
 		*/
 		 
-		yagua3.maullar();
+		
+		IFelinoSalvaje yagua4 = new Jaguar(10, 120f);
+		yagua4.cazar();
+		
 
 	}
 
